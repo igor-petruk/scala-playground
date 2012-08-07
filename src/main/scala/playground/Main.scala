@@ -24,6 +24,11 @@ object Main {
     val tuple = ("String", 10)
     val array = Array(1,2,3)
     val list = List(2.2, 3.0, 4.0)
+    val function = (x:Int,y:Double)=>x+" "+y
+    val functionShort:Int=>Int = _*2
+    
+    //usage 
+    val result = List(2,4,2,5).filter(_>4).map(_*23)
   }
   
   class NameClass(name:String, country:String="UK"){
